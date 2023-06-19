@@ -1,11 +1,21 @@
-// ExceptionStandar.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
+#include <exception>
 #include <iostream>
+//untuk obyek exception yang akan digunakan
+#include <array>
+//untuk obyek array yang akan kita gunakan
+using namespace std;
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    cout << "Awal Program" << endl; //penanda 1:...
+    try {
+        array<int, 3> data = { 1, 2, 3, };
+        //pesan array integer 3 elemen
+        //cout<<data.at(5)<<endl;
+        //memanggil array elemen ke 5
+    }
+   
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
