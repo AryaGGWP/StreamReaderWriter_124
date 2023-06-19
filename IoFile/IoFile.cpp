@@ -17,9 +17,15 @@ int main() {
         cout << "- ";
         //mendapatkan setiap karakter dalam satu baris
         getline(cin, baris);
-        //loop akan berhenti
+        //loop akan berhenti jika anda memasukan karakter q
+        if (baris == "q") break;
+        // menulis dan memasukan nilai dari 'baris' ke dalam file
+        outfile << baris << endl;
     }
+    //selesai dalam menulis sekarang tutup filenya
+    outfile.close();
 }
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
