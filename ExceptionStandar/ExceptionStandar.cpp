@@ -22,6 +22,9 @@ int main()
         memiliki 3 elemen*/
     }
     cout << "Baris Program yang terakhir" << endl;
+    /*penanda 2: bahwa program berjalan tanpa berhenti
+    meskipun terjadi kesalahan*/
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

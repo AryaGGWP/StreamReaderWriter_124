@@ -17,5 +17,5 @@ int main()
 		cout << "default pengecualian dieksekusi" << endl;
 	}
 
-	return;
+	return 0;
 }
